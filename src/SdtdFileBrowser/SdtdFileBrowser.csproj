@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+		<Platform>x64</Platform>
+		<OutputType>Library</OutputType>
+		<Authors>IceCoffee</Authors>
+		<Company>LuoShuiTianYi</Company>
+		<Copyright>Copyright (c) 2024 IceCoffee</Copyright>
+		<Description>A open source mod for 7 Days to Die dedicated servers. Provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your dedicated server files. Works with both Linux and Windows.</Description>
+		<LangVersion>10.0</LangVersion>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/1249993110/7DaysToDie-FileBrowser</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/1249993110/7DaysToDie-FileBrowser</RepositoryUrl>
+		<Version>1.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="" Visible="false" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="" Visible="false" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<Private>false</Private>
+			<HintPath>..\7dtd-binaries\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<Private>false</Private>
+			<HintPath>..\7dtd-binaries\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<Private>false</Private>
+			<HintPath>7dtd-binaries\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="LogLibrary">
+			<Private>false</Private>
+			<HintPath>..\7dtd-binaries\LogLibrary.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<Private>false</Private>
+			<HintPath>..\7dtd-binaries\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ModInfo.xml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update=".\3rdparty-binaries\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
