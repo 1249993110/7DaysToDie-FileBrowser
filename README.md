@@ -14,3 +14,5 @@ Please refer to our docs at [https://filebrowser.org/features](https://filebrows
 ## Screenshot
 
 ![screenshot](https://github.com/1249993110/7DaysToDie-FileBrowser/assets/38341761/9c4d9b04-1bde-4af1-9945-c51f4ac7347e)
+
+![screenshot](https://github.com/1249993110/7DaysToDie-FileBrowser/assets/38341761/742e55eb-ce68-428e-b8de-dcea1449e1bb)
