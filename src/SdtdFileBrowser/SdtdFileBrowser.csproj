@@ -28,11 +28,11 @@
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">
 			<Private>false</Private>
-			<HintPath>..\7dtd-binaries\Assembly-CSharp.dll</HintPath>
+			<HintPath>7dtd-binaries\Assembly-CSharp.dll</HintPath>
 		</Reference>
 		<Reference Include="Assembly-CSharp-firstpass">
 			<Private>false</Private>
-			<HintPath>..\7dtd-binaries\Assembly-CSharp-firstpass.dll</HintPath>
+			<HintPath>7dtd-binaries\Assembly-CSharp-firstpass.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.CoreModule">
 			<Private>false</Private>
@@ -40,11 +40,11 @@
 		</Reference>
 		<Reference Include="LogLibrary">
 			<Private>false</Private>
-			<HintPath>..\7dtd-binaries\LogLibrary.dll</HintPath>
+			<HintPath>7dtd-binaries\LogLibrary.dll</HintPath>
 		</Reference>
 		<Reference Include="Newtonsoft.Json">
 			<Private>false</Private>
-			<HintPath>..\7dtd-binaries\Newtonsoft.Json.dll</HintPath>
+			<HintPath>7dtd-binaries\Newtonsoft.Json.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 
