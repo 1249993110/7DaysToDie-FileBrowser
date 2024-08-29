@@ -96,10 +96,10 @@ namespace SdtdFileBrowser
                 "config init",
                 "config set --address 0.0.0.0",
                 $"config set --port {port}",
-                "config set --locale zh-cn",
+                //"config set --locale zh-cn",
                 $"config set --root \"{root}\"",
-                $"users add {username} {password} --perm.admin --lockPassword",
-                $"users update {username} --password {password} --perm.admin --lockPassword"
+                $"users add {username} {password} --perm.admin",
+                //$"users update {username} --password {password} --perm.admin --lockPassword"
             };
 
             Process process;
