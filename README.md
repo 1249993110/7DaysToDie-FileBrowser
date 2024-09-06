@@ -1,19 +1,21 @@
 # 7DaysToDie-FileBrowser
 A open source mod for 7 Days to Die dedicated servers. Provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your dedicated server files. Works with both Linux and Windows.
 
-Welcome join the Discord server: https://discord.gg/zdnmngsBK4
+## 🌐 Compatibility
+Dedicated Server only. Required game version: V1.0
 
-## Demo
+## 🎉 Features
+Please refer to our docs at [https://filebrowser.org/features](https://filebrowser.org/features)
 
+## 📌 Demo
 url: http://localhost:8890/
 
 credentials: `admin`/`123456`
 
-## Features
+## 👷 Support
+Welcome join [our Discord server](<https://discord.gg/zdnmngsBK4>) and we can help.
 
-Please refer to our docs at [https://filebrowser.org/features](https://filebrowser.org/features)
-
-## Screenshot
+## 🎨 Screenshot
 ![1](https://github.com/user-attachments/assets/b505312d-88c7-4151-8246-141eb58c79ff)
 
 ![2](https://github.com/user-attachments/assets/ead2e08f-5a21-4cfd-97bd-3594a317134d)
