@@ -15,6 +15,13 @@ credentials: `admin`/`123456`
 ## 👷 Support
 Welcome join [our Discord server](<https://discord.gg/zdnmngsBK4>) and we can help.
 
+## 💚 Donate
+If you find this project useful, you can buy author a coffee :coffee:
+
+[!["Buy Me a Coffee at ko-fi.com"](https://storage.ko-fi.com/cdn/kofi1.png?v=3)](https://ko-fi.com/L3L012RJ8R)
+
+![image](https://github.com/user-attachments/assets/615fb619-5f40-42da-86ad-e60de11cdef2)
+
 ## 🎨 Screenshot
 ![1](https://github.com/user-attachments/assets/b505312d-88c7-4151-8246-141eb58c79ff)
 
