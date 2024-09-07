@@ -29,7 +29,3 @@ If you find this project useful, you can buy author a coffee :coffee:
 
 ![3](https://github.com/user-attachments/assets/e472cf9e-f5f2-4bbe-b0c5-979136e44a02)
 
-![6b2bf2d3804ab817c8a19786053f7f75](https://github.com/user-attachments/assets/11ca1ed8-0d71-4880-a750-af43aee8af45)
-
-![b019f20e5134c4dcd3d366b269dcb549](https://github.com/user-attachments/assets/98105a83-720e-47a8-8ea5-11d9717e21c3)
-
